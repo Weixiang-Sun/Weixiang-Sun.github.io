@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Undergraduate @[Northeastern University](http://english.neu.edu.cn/)
-
+subtitle: Undergraduate @<a href='http://english.neu.edu.cn'>Northeastern University</a>
 profile:
   align: right
   image: prof_pic.jpg
