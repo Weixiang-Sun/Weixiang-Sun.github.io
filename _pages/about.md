@@ -8,9 +8,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p></p>
+    <p></p>
+    <p></p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -24,4 +24,4 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-Hi, I am an undergraduate student majoring in Information and Computational Science in the [College of Science](cos.neu.edu.cn) at [Northeastern University](neu.edu.cn), and I am currently interning with [Lichao Sun](https://lichao-sun.github.io/) in the Tai lab at Lehigh University. My research interests are medical Ai and data security. And I will apply Ph.D in 2025 fall.
+Hi, I am an undergraduate student majoring in Information and Computational Science in the [College of Science](https://cos.neu.edu.cn) at [Northeastern University](https://neu.edu.cn), and I am currently interning with [Lichao Sun](https://lichao-sun.github.io/) in the Tai lab at Lehigh University. My research interests are medical Ai and data security. And I will apply Ph.D in 2025 fall.
