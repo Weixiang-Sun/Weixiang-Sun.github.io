@@ -2,11 +2,11 @@
   "basics": {
     "name": "Weixiang Sun",
     "label": "Reasercher, Student",
-    "image": "",
+    "image": "prof_pic.jpg",
     "email": "kennysweson@gmail.com",
     "phone": "(86) 13066669486",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "url": "https://https://weixiang-sun.github.io/",
+    "summary": "An undergraduate student focused on MEDICAL AI and data security.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -38,24 +38,35 @@
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "institution": "Northeastern University, Shenyang, China",
+      "url": "https://english.neu.edu.cn/",
+      "area": "Information and Computational Science",
+      "studyType": "Bachelor",
+      "startDate": "2021-09-01",
+      "endDate": "2025-07-15",
       "score": "",
       "courses": [
-        "Theory of Relativity"
+        "Mathematical analysis",
+        "Advanced algebra",
+        "Probability theory and mathematical statistics",
+        "ODE",
+        "PDE",
+        "Deeplearning"
       ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "National Third Class Scholarship",
+      "date": "2022-09",
+      "awarder": "Northeastern University",
+      "summary": "Top 15% stdent in one school year"
+    },
+    {
+      "title": "Mingming Scholarship",
+      "data": "2022-09",
+      "awarder": "Northeastern University",
+      "summary": "Top 10% student in one school year"
     }
   ],
   "certificates": [],
@@ -63,7 +74,7 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "Chinese",
       "fluency": "Native speaker"
     },
     {
