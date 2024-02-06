@@ -274,8 +274,8 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Weixiang]
-  first_name: [Sun]
+  last_name: [Sun]
+  first_name: [Weixiang]
 
   style: apa
   locale: en
