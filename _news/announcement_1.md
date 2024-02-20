@@ -7,7 +7,7 @@ related_posts: true
 giscus_comments: true
 ---
 
-I'm selected in Northeastern University-North Carolina State University Mathematics Undergraduate International Exchange Program udner the advise of [Kazufumi Ito](https://math.sciences.ncsu.edu/people/kito/)
+I'm selected in Northeastern University-North Carolina State University Mathematics Undergraduate International Exchange Program udner the advise of [Kazufumi Ito](https://kito.wordpress.ncsu.edu/)
 
 ***
 

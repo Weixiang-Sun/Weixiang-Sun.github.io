@@ -25,3 +25,6 @@ Put your address / P.O. box / other info right below your picture. You can also 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
 Hi, I am an undergraduate student majoring in Information and Computational Science in the [College of Science]() at [Northeastern University](http://english.neu.edu.cn), and I am currently interning under the supervision of [Lichao Sun](https://lichao-sun.github.io/) in the LAIR(Lehigh AI Research) lab at Lehigh University. My research interests are medical Ai and data security. And I will apply Ph.D in 2025 fall.
+
+
+<a href="https://info.flagcounter.com/EkRR"><img src="https://s11.flagcounter.com/map/EkRR/size_m/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
