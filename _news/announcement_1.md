@@ -22,4 +22,10 @@ I'm selected in Northeastern University-North Carolina State University Mathemat
 
 ***
 ### The project poster
-![Project Poster](/assets/img/exchange_NCSU/img.jpg "Project Poster")
+<!-- ![Project Poster](/assets/img/exchange_NCSU/img.jpg "Project Poster") -->
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/exchange_NCSU/img.jpg" title="Project Poster" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
