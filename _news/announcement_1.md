@@ -4,6 +4,7 @@ title: Selected in exchange program with NCSU
 date: 2022-06-24 15:59:00-0400
 inline: false
 related_posts: true
+giscus_comments: true
 ---
 
 I'm selected in Northeastern University-North Carolina State University Mathematics Undergraduate International Exchange Program udner the advise of [Kazufumi Ito](https://math.sciences.ncsu.edu/people/kito/)
