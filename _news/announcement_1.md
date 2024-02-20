@@ -5,4 +5,4 @@ inline: true
 related_posts: true
 ---
 
-MICCAI is coming.
+A simple inline announcement.
