@@ -29,3 +29,6 @@ I'm selected in Northeastern University-North Carolina State University Mathemat
         {% include figure.html path="assets/img/exchange_NCSU/img.jpg" title="Project Poster" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Open in the new tab for high quality image version or click <a href="https://drive.google.com/file/d/12TQdzDpa0mrYx_0umd1Tlj5P-gRwmtj5/view?usp=sharing">here</a> for pdf version.
+</div>
