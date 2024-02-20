@@ -58,7 +58,12 @@ layout: default
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
-
+          
+          <!-- Flag counter -->
+          {% if page.counter -%}
+            <a href="https://info.flagcounter.com/EkRR"><img src="https://s11.flagcounter.com/map/EkRR/size_m/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
+          {%- endif %}
+          
           <!-- Social -->
           {%- if page.social %}
             <div class="social">

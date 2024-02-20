@@ -16,6 +16,7 @@ news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+counter: true
 ---
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
@@ -27,4 +28,3 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 Hi, I am an undergraduate student majoring in Information and Computational Science in the [College of Science]() at [Northeastern University](http://english.neu.edu.cn), and I am currently interning under the supervision of [Lichao Sun](https://lichao-sun.github.io/) in the LAIR(Lehigh AI Research) lab at Lehigh University. My research interests are medical Ai and data security. And I will apply Ph.D in 2025 fall.
 
 
-<a href="https://info.flagcounter.com/EkRR"><img src="https://s11.flagcounter.com/map/EkRR/size_m/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0"></a>
