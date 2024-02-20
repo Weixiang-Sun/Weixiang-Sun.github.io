@@ -20,3 +20,6 @@ I'm selected in Northeastern University-North Carolina State University Mathemat
 
     Establish a bridge between the projection gradient method and the gradient descent method. We extend the proof of convergence of the gradient descent method to the projection gradient method, and establish the RL condition for generalized gradients under strong convexity and smoothness assumptions.
 
+***
+### The project poster
+![Project Poster](/assets/img/exchange_NCSU/img.jpg "Project Poster")
