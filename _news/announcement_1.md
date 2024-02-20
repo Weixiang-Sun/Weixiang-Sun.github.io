@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Selected in exchange program with NCSU
 date: 2022-06-24 15:59:00-0400
 inline: false
