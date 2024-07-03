@@ -6,4 +6,4 @@ related_posts: false
 giscus_comments: true
 ---
 
-The further research of exchange program is accepted by **ISCEIC2022**
+The further research of exchange program is accepted by **ISCEIC2022**.
