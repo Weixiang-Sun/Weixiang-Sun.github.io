@@ -12,13 +12,13 @@
   organization={SPIE},
   url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12462/2660936/Research-and-application-of-improved-neural-network-optimization-algorithm/10.1117/12.2660936.short},
   html={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12462/2660936/Research-and-application-of-improved-neural-network-optimization-algorithm/10.1117/12.2660936.short},
-  selected={true},
+  selected={false},
   preview={spacetime.jpg}
 }
 
 @article{sun2024medical,
   title={Medical Unlearnable Examples: Securing Medical Data from Unauthorized Traning via Sparsity-Aware Local Masking},
-  author={\textbf{Sun, Weixiang} and Liu, Yixin and Yan, Zhiling and Xu, Kaidi and Sun, Lichao},
+  author={Sun, Weixiang and Liu, Yixin and Yan, Zhiling and Xu, Kaidi and Sun, Lichao},
   abstract={With the rapid growth of artificial intelligence (AI) in healthcare, there has been a significant increase in the generation and storage of sensitive medical data. This abundance of data, in turn, has propelled the advancement of medical AI technologies. However, concerns about unauthorized data exploitation, such as training commercial AI models, often deter researchers from making their invaluable datasets publicly available. In response to the need to protect this hard-to-collect data while still encouraging medical institutions to share it, one promising solution is to introduce imperceptible noise into the data. This method aims to safeguard the data against unauthorized training by inducing degradation in model generalization. Although existing methods have shown commendable data protection capabilities in general domains, they tend to fall short when applied to biomedical data, mainly due to their failure to account for the sparse nature of medical images. To address this problem, we propose the Sparsity-Aware Local Masking (SALM) method, a novel approach that selectively perturbs significant pixel regions rather than the entire image as previous strategies have done. This simple-yet-effective approach significantly reduces the perturbation search space by concentrating on local regions, thereby improving both the efficiency and effectiveness of data protection for biomedical datasets characterized by sparse features. Besides, we have demonstrated that SALM maintains the essential characteristics of the data, ensuring its clinical utility remains uncompromised. Our extensive experiments across various datasets and model architectures demonstrate that SALM effectively prevents unauthorized training of deep-learning models and outperforms previous state-of-the-art data protection methods.},
   journal={arXiv preprint arXiv:2403.10573},
   year={2024},
@@ -28,3 +28,22 @@
   preview={med_ule.png}
 }
 
+@article{dreambooth,
+    author = {Yuan, Zhengqing and Chen, Ruoxi and Wang, Yang and Sun, Weixiang and Ye, Yanfang and Sun, Lichao},
+    title = {Fine-tuning Text-to-Video Diffusion Transformers via Image Guidance},
+    abstract={Customized text-to-video generation, which seeks to produce text-directed videos incorporating specific user-defined subjects, has recently seen a surge in research interest. In this paper, we pioneered to use diffusion transformers for customized video generation. We have adapted DreamBooth to fine-tune text-to-video models effectively, utilizing videos that have been transformed from images by image-to-video models. Our proposed method, VideoAdapter, makes efficient use of a few reference images to capture and faithfully reproduce the essential visual characteristics of the subject. Extensive experiments have verified the performance of \ours in both quantitatively and qualitatively, demonstrating its capability to achieve high visual fidelity in dynamic video content generation.},
+    journal = {arxiv preprint},
+    year = {2024},
+    seleted = {true},
+    preview = {dreambooth.png}
+}
+
+@article{sun2024bora,
+  title={Bora: Biomedical Generalist Video Generation Model},
+  author={Sun, Weixiang and You, Xiaocao and Zheng, Ruizhe and Li, Xiang and Sun, Lichao},
+  abstract = {Generative models hold promise for revolutionizing medical education, robot-assisted surgery, and data augmentation for medical AI development. Diffusion models can now generate realistic images from text prompts, while recent advancements have demonstrated their ability to create diverse, high-quality videos. However, these models often struggle with generating accurate representations of medical procedures and detailed anatomical structures. This paper introduces Bora, the first spatio-temporal diffusion probabilistic model designed for text-guided biomedical video generation. Bora leverages Transformer architecture and is pre-trained on general-purpose video generation tasks. It is fine-tuned through model alignment and instruction tuning using a newly established medical video corpus, which includes paired text-video data from various biomedical fields. To the best of our knowledge, this is the first attempt to establish such a comprehensive annotated biomedical video dataset. Bora is capable of generating high-quality video data across four distinct biomedical domains, adhering to medical expert standards and demonstrating consistency and diversity. This generalist video generative model holds significant potential for enhancing medical consultation and decision-making, particularly in resource-limited settings. Additionally, Bora could pave the way for immersive medical training and procedure planning. Extensive experiments on distinct medical modalities such as endoscopy, ultrasound, MRI, and cell tracking validate the effectiveness of our model in understanding biomedical instructions and its superior performance across subjects compared to state-of-the-art generation models.},
+  journal={arXiv preprint},
+  year={2024},
+  pages={https://weixiang-sun.github.io/Bora/},
+  selected = {true}
+}
