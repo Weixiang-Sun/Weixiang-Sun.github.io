@@ -274,8 +274,8 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Weixiang]
-  first_name: [Sun]
+  last_name: [Sun]
+  first_name: [Weixiang, W.]
 
   style: apa
   locale: en
@@ -307,7 +307,7 @@ badges: # Display different badges for your publications
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3  # leave blank to always show all authors
+max_author_limit: 10  # leave blank to always show all authors
 more_authors_animation_delay: 10  # more authors are revealed on click using animation; smaller delay means faster animation
 
 
