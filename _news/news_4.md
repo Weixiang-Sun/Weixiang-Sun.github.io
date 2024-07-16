@@ -6,4 +6,4 @@ related_posts: false
 giscus_comments: true
 ---
 
-Our Medical Unlearnable Example is accepted by ICML NextGenAISafety!
+Our Medical Unlearnable Example is accepted by [ICML2024 NextGenAISafety](https://icml-nextgenaisafety.github.io/)!

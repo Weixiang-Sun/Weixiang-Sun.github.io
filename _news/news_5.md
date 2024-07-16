@@ -6,4 +6,4 @@ related_posts: false
 giscus_comments: true
 ---
 
-We release Bora, a video generation model specificaly for biomedical domain. [Project Page](https://weixiang-sun.github.io/Bora/)
+We release Bora, the world's first video generation model specifically for the biomedical domain. [Project Page](https://weixiang-sun.github.io/Bora/)
