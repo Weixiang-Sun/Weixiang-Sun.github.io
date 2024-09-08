@@ -8,7 +8,7 @@ profile:
   image: me.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>kennysweson@gmail.com</p>
+    <p>kennysweson AT gmail.com</p>
     <p></p>
     <p></p>
 
