@@ -5,7 +5,7 @@ permalink: /
 subtitle: Undergraduate @<a href='http://english.neu.edu.cn'>Northeastern University</a>
 profile:
   align: right
-  image: me.jpeg
+  image: me_2024.jpeg
   image_circular: false # crops the image to make it circular
   address: >
     <p>kennysweson AT gmail.com</p>
