@@ -74,10 +74,11 @@
               {{author.first}} {{author.last}}
             {%- endif -%}
           {%- endif -%}
-          {%- if forloop.index < cofirst_count -%}
+          {%- if forloop.index <= cofirst_count -%}
             <sup>†</sup>
           {%- endif -%}
         {%- endfor -%}
+
 
 
         {%- assign more_authors = author_array_size | minus: author_array_limit -%}
