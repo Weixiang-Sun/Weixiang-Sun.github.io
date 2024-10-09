@@ -40,6 +40,7 @@
           {% assign author_array_limit = site.max_author_limit %}
         {% endif %}
 
+        {%- assign cofirst_count = entry.cofirst | default: 0 | plus: 0 -%}
         {%- for author in entry.author_array limit: author_array_limit -%}
           {%- assign author_is_self = false -%}
           {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
@@ -66,12 +67,21 @@
             <em>{{author.first}} {{author.last}}</em>
           {%- else -%}
             {%- if coauthor_url -%}
-              <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+              <a href="{{coauthor_url}}">
+                {{author.first}} {{author.last}}
+                {%- if forloop.index0 < cofirst_count -%}
+                  <sup>†</sup>
+                {%- endif -%}
+              </a>
             {%- else -%}
               {{author.first}} {{author.last}}
+              {%- if forloop.index0 < cofirst_count -%}
+                <sup>†</sup>
+              {%- endif -%}
             {%- endif -%}
           {%- endif -%}
         {%- endfor -%}
+
         {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
         {%- assign more_authors_hide = more_authors | append: " more author" -%}
