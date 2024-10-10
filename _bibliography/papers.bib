@@ -22,14 +22,14 @@
   journal={ICML 2024 NextGenAISafety},
   year={2024},
   arxiv={2403.10573},
-  selected={true},
+  selected={false},
   preview={med_ule.png}
 }
 
 @article{dreambooth,
     author = {Yuan, Zhengqing and Chen, Ruoxi and Wang, Yang and Sun, Weixiang and Ye, Yanfang and Sun, Lichao},
     title = {Fine-tuning Text-to-Video Diffusion Transformers via Image Guidance},
-    abstract={Customized text-to-video generation, which seeks to produce text-directed videos incorporating specific user-defined subjects, has recently seen a surge in research interest. In this paper, we pioneered to use diffusion transformers for customized video generation. We have adapted DreamBooth to fine-tune text-to-video models effectively, utilizing videos that have been transformed from images by image-to-video models. Our proposed method, VideoAdapter, makes efficient use of a few reference images to capture and faithfully reproduce the essential visual characteristics of the subject. Extensive experiments have verified the performance of \ours in both quantitatively and qualitatively, demonstrating its capability to achieve high visual fidelity in dynamic video content generation.},
+    abstract={Customized text-to-video generation, which seeks to produce text-directed videos incorporating specific user-defined subjects, has recently seen a surge in research interest. In this paper, we pioneered to use diffusion transformers for customized video generation. We have adapted DreamBooth to fine-tune text-to-video models effectively, utilizing videos that have been transformed from images by image-to-video models. Our proposed method, VideoAdapter, makes efficient use of a few reference images to capture and faithfully reproduce the essential visual characteristics of the subject. Extensive experiments have verified the performance of Mora in both quantitatively and qualitatively, demonstrating its capability to achieve high visual fidelity in dynamic video content generation.},
     journal = {arxiv preprint},
     year = {2024},
     selected = {false},
@@ -81,4 +81,18 @@
   year={2024},
   preview={advlogo.png},
   arxix={2409.07002}
+}
+
+@misc{yuan2024moraenablinggeneralistvideo,
+  title={Mora: Enabling Generalist Video Generation via A Multi-Agent Framework}, 
+  author={Zhengqing Yuan and Yixin Liu and Yihan Cao and Weixiang Sun and Haolong Jia and Ruoxi Chen and Zhaoxu Li and Bin Lin and Li Yuan and Lifang He and Chi Wang and Yanfang Ye and Lichao Sun},
+  abstract={Text-to-video generation has made significant strides, but replicating the capabilities of advanced systems like OpenAI's Sora remains challenging due to their closed-source nature. Existing open-source methods struggle to achieve comparable performance, often hindered by ineffective agent collaboration and inadequate training data quality. In this paper, we introduce Mora, a novel multi-agent framework that leverages existing open-source modules to replicate Sora's functionalities. We address these fundamental limitations by proposing three key techniques: (1) multi-agent fine-tuning with a self-modulation factor to enhance inter-agent coordination, (2) a data-free training strategy that uses large models to synthesize training data, and (3) a human-in-the-loop mechanism combined with multimodal large language models for data filtering to ensure high-quality training datasets. Our comprehensive experiments on six video generation tasks demonstrate that Mora achieves performance comparable to Sora on VBench, outperforming existing open-source methods across various tasks. Specifically, in the text-to-video generation task, Mora achieved a Video Quality score of 0.800, surpassing Sora's 0.797 and outperforming all other baseline models across six key metrics. Additionally, in the image-to-video generation task, Mora achieved a perfect Dynamic Degree score of 1.00, demonstrating exceptional capability in enhancing motion realism and achieving higher Imaging Quality than Sora. These results highlight the potential of collaborative multi-agent systems and human-in-the-loop mechanisms in advancing text-to-video generation.},
+  year={2024},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  arxiv={2403.13248}, 
+  selected={true},
+  preview={mora.jpg},
+  code={https://github.com/lichao-sun/Mora},
+  cofirst={4}
 }
