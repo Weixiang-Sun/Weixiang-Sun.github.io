@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: Selected in exchange program with NCSU
 date: 2022-06-24 15:59:00-0400
@@ -24,11 +24,11 @@ I'm selected in Northeastern University-North Carolina State University Mathemat
 ### The project poster
 <!-- ![Project Poster](/assets/img/exchange_NCSU/img.jpg "Project Poster") -->
 
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/exchange_NCSU/img.jpg" title="Project Poster" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Open in the new tab for high quality image version or click <a href="https://drive.google.com/file/d/12TQdzDpa0mrYx_0umd1Tlj5P-gRwmtj5/view?usp=sharing">here</a> for pdf version.
-</div>
+</div> -->
