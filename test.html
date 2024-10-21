@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publication Citations</title>
+    <script>
+        // Predefined publication ID
+        const predefinedPublicationId = 'zizf0i0AAAAJ:UeHWp8X0CEIC';  // Replace this with your target publication ID
+
+        // Function to fetch the JSON data and extract citation count for the predefined publication ID
+        async function fetchCitationData() {
+            const url = 'https://raw.githubusercontent.com/weixiang-sun/weixiang-sun.github.io/google-scholar-stats/gs_data.json';
+
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+
+                // Check if the predefined publication ID exists in the data
+                if (data.publications[predefinedPublicationId]) {
+                    const publication = data.publications[predefinedPublicationId];
+                    const citationCount = publication.num_citations;
+
+                    // Display the citation count
+                    document.getElementById('citation-count').innerText = `Citation Count: ${citationCount}`;
+                } else {
+                    document.getElementById('citation-count').innerText = 'Publication ID not found';
+                }
+            } catch (error) {
+                console.error('Error fetching or parsing the JSON data:', error);
+                document.getElementById('citation-count').innerText = 'Error fetching data';
+            }
+        }
+
+        // Fetch citation data when the page loads
+        window.onload = fetchCitationData;
+    </script>
+</head>
+<body>
+    <h1>Publication Citation Count</h1>
+    <p id="citation-count">Loading citation count...</p>
+</body>
+</html>
