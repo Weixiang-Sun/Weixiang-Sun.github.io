@@ -22,10 +22,6 @@ Hi, I am a final year undergraduate student majoring in Information and Computat
 
 > I am seeking potential research collaborations and the position of industry research intern. If you are interested, please [contact me](&#40;mailto:kennysweson@gmail.com&#41;).
 
-
-<!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
-
-
 # 🔥 News
 - *2023.09*: &nbsp;🎉🎉 Our [TTT-Unet: Enhancing U-Net with Test-Time Training Layers for Biomedical Image Segmentation](https://arxiv.org/abs/2409.11299) is released! 
 - *2024.08*: &nbsp;🎉🎉 We release [Biomedical SAM 2: Segment Anything in Biomedical Images and Videos](https://www.arxiv.org/abs/2408.03286). We are still working on it!
@@ -37,8 +33,6 @@ Hi, I am a final year undergraduate student majoring in Information and Computat
 # 📝 Selected Publications 
 
 {% include_relative includes/pub.md %}
-
-
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
