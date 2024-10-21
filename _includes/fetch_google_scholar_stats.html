@@ -1,19 +1,32 @@
 <script>
     $(document).ready(function () {
-        {% if site.google_scholar_stats_use_cdn %}
-        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
-        {% else %}
+        // {% if site.google_scholar_stats_use_cdn %}
+        // var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
+        // {% else %}
+        // {% endif %}
         var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
-        {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
-            var citationEles = document.getElementsByClassName('show_paper_citations')
+
+        $.getJSON(gsDataBaseUrl + "gs_data.json", function (data) {
+            console.log("JSON 数据获取成功：", data); // 调试信息，查看数据内容是否获取成功
+
+            // Update total citation count
+            var totalCitation = data['citedby'];
+            document.getElementById('total_cit').innerHTML = 'Total Citations: ' + totalCitation;
+
+            // Update individual paper citations
+            var citationEles = document.getElementsByClassName('show_paper_citations');
             Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
+                var paperId = element.getAttribute('data');
+                if (data['publications'][paperId]) {
+                    var numCitations = data['publications'][paperId]['num_citations'];
+                    element.innerHTML = '| Citations: ' + numCitations;
+                } else {
+                    element.innerHTML = '| Citations: Data not available';
+                }
             });
+        }).fail(function (jqxhr, textStatus, error) {
+            var err = textStatus + ", " + error;
+            console.error("请求 JSON 文件失败: " + err); // 错误信息
         });
     })
 </script>

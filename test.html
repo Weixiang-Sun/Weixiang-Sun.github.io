@@ -3,41 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publication Citations</title>
-    <script>
-        // Predefined publication ID
-        const predefinedPublicationId = 'zizf0i0AAAAJ:UeHWp8X0CEIC';  // Replace this with your target publication ID
-
-        // Function to fetch the JSON data and extract citation count for the predefined publication ID
-        async function fetchCitationData() {
-            const url = 'https://raw.githubusercontent.com/weixiang-sun/weixiang-sun.github.io/google-scholar-stats/gs_data.json';
-
-            try {
-                const response = await fetch(url);
-                const data = await response.json();
-
-                // Check if the predefined publication ID exists in the data
-                if (data.publications[predefinedPublicationId]) {
-                    const publication = data.publications[predefinedPublicationId];
-                    const citationCount = publication.num_citations;
-
-                    // Display the citation count
-                    document.getElementById('citation-count').innerText = `Citation Count: ${citationCount}`;
-                } else {
-                    document.getElementById('citation-count').innerText = 'Publication ID not found';
-                }
-            } catch (error) {
-                console.error('Error fetching or parsing the JSON data:', error);
-                document.getElementById('citation-count').innerText = 'Error fetching data';
-            }
-        }
-
-        // Fetch citation data when the page loads
-        window.onload = fetchCitationData;
-    </script>
+    <title>Google Scholar Citations</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <h1>Publication Citation Count</h1>
-    <p id="citation-count">Loading citation count...</p>
+    <!-- Element for displaying total citation count -->
+    <div id="total_cit">Total Citations: Loading...</div>
+
+    <!-- Elements for displaying paper citations -->
+    <div class="show_paper_citations" data="zizf0i0AAAAJ:UeHWp8X0CEIC">Loading...</div>
+    <div class="show_paper_citations" data="paper_2">Loading...</div>
+
+    <!-- Your script for loading Google Scholar data -->
+    <script>
+        $(document).ready(function () {
+            var gsDataBaseUrl = 'https://raw.githubusercontent.com/weixiang-sun/weixiang-sun.github.io/google-scholar-stats/';
+
+            $.getJSON(gsDataBaseUrl + "gs_data.json", function (data) {
+                console.log("JSON 数据获取成功：", data); // 调试信息，查看数据内容是否获取成功
+
+                // Update total citation count
+                var totalCitation = data['citedby'];
+                document.getElementById('total_cit').innerHTML = 'Total Citations: ' + totalCitation;
+
+                // Update individual paper citations
+                var citationEles = document.getElementsByClassName('show_paper_citations');
+                Array.prototype.forEach.call(citationEles, element => {
+                    var paperId = element.getAttribute('data');
+                    if (data['publications'][paperId]) {
+                        var numCitations = data['publications'][paperId]['num_citations'];
+                        element.innerHTML = '| Citations: ' + numCitations;
+                    } else {
+                        element.innerHTML = '| Citations: Data not available';
+                    }
+                });
+            }).fail(function (jqxhr, textStatus, error) {
+                var err = textStatus + ", " + error;
+                console.error("请求 JSON 文件失败: " + err); // 错误信息
+            });
+        });
+    </script>
 </body>
 </html>
