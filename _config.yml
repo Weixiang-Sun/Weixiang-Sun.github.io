@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Weixiang Sun"
 description              : Undergraduate student at Northeastern University. Focusing on Large Models and their medical applications.
-repository               : "Weixiang-Sun/weixiang-sun.github.io/"
+repository               : "weixiang-sun/weixiang-sun.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
