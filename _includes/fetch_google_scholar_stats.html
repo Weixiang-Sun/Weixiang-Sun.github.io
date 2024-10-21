@@ -16,7 +16,7 @@
                 console.log('Publication data: ', data['publications'][paperId]);
                 
                 if (data['publications'][paperId]) {
-                    var numCitations = data['publications'][paperId]['source'];
+                    var numCitations = data['publications'][paperId]['num_citations'];
                     element.innerHTML = '| Citations: ' + numCitations;
                 } else {
                     element.innerHTML = '| Citations: Not available';
