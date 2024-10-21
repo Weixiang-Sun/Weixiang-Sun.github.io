@@ -59,7 +59,9 @@ See the full publication list at the bottom of the page or via [Google Scholar](
 Zhiling Yan<sup>†</sup>, **Weixiang Sun**<sup>†</sup>, Rong Zhou<sup>†</sup>, Zhengqing Yuan<sup>†</sup>, Kai Zhang, Yiwei Li, Tianming Liu, Quanzheng Li, Xiang Li, Lifang He, Lichao Sun.
 
 <!-- [**Project Page**](https://weixiang-sun.github.io/Bora/)  -->
-<strong><span class='show_paper_citations' data='zizf0i0AAAAJ:UeHWp8X0CEIC'></span></strong>
+
+<span class='show_paper_citations' data='zizf0i0AAAAJ:UeHWp8X0CEIC'></span>
+
 <!-- [![](https://img.shields.io/github/stars/Weixiang-Sun/Bora)](https://github.com/Weixiang-Sun/Bora) -->
 <!-- - **World's first** video generation model specifically for the biomedical domain.  -->
 </div>
