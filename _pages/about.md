@@ -51,3 +51,4 @@ Hi, I am a final year undergraduate student majoring in Information and Computat
 
 # Full Publication List
 - ![ISCEIC 2022](https://img.shields.io/badge/ISCEIC-2022-pink)[Research and application of improved neural network optimization algorithm](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12462/124622E/Research-and-application-of-improved-neural-network-optimization-algorithm/10.1117/12.2660936.short), **Weixiang Sun**.
+- [Medical Unlearnable Examples: Securing Medical Data from Unauthorized Traning via Sparsity-Aware Local Masking](https://arxiv.org/abs/2403.10573)
