@@ -20,8 +20,8 @@ jobs:
         python3 main.py
         cd ./results
         git init
-        git config --local user.name "${GITHUB_ACTOR}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+        git config --local user.name "Weixiang-Sun"
+        export remote_repo="https://Weixiang-Sun:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
         git add *.json
         git commit -m "Updated Citation Data"
         git push "${remote_repo}" HEAD:google-scholar-stats --force
