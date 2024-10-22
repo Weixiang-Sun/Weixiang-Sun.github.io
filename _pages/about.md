@@ -34,9 +34,10 @@ Hi, I am a final year undergraduate student majoring in Information and Computat
 
 {% include_relative includes/pub.md %}
 
-<!-- # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+# 🎖 Honors and Awards
+- *2023.07* Tuoxin Scholarship (Top 5%).
+- *2023.07* Second Class Scholarship (Top 10%).
+- *2022.07* Third Class Scholarship (Top 15%). 
 
 # 📖 Educations
 <!-- - *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
@@ -52,4 +53,7 @@ Hi, I am a final year undergraduate student majoring in Information and Computat
 # Full Publication List
 - ![ISCEIC 2022](https://img.shields.io/badge/ISCEIC-2022-pink) [Research and application of improved neural network optimization algorithm](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12462/124622E/Research-and-application-of-improved-neural-network-optimization-algorithm/10.1117/12.2660936.short), **Weixiang Sun**.
 - ![ICMLW 2024](https://img.shields.io/badge/ICMLW-2024-black) [Medical Unlearnable Examples: Securing Medical Data from Unauthorized Traning via Sparsity-Aware Local Masking](https://arxiv.org/abs/2403.10573), **Weixiang Sun**, Yixin Liu, Zhiling Yan, Kaidi Xu, Lichao Sun.
-- ![arxiv 2024](https://img.shields.io/badge/arxiv-2024-red) [Bora: Biomedical Generalist Video Generation Model](https://arxiv.org/abs/2407.08944), **Weixiang Sun**<sup>†</sup>, Xiaocao You<sup>†</sup>, Ruizhe zheng<sup>†</sup>, Zhengqing Yuan, Xiang Li, Lifang He, Quanzheng Li, Lichao Sun. 
+- ![arxiv 2024](https://img.shields.io/badge/arxiv-2024-red) [Bora: Biomedical Generalist Video Generation Model](https://arxiv.org/abs/2407.08944), **Weixiang Sun**<sup>†</sup>, Xiaocao You<sup>†</sup>, Ruizhe zheng<sup>†</sup>, Zhengqing Yuan, Xiang Li, Lifang He, Quanzheng Li, Lichao Sun.
+- ![NeurIPSW](https://img.shields.io/badge/NeurIPSW-2024-purple) [Biomedical sam 2: Segment anything in biomedical images and videos](https://arxiv.org/abs/2408.03286), Zhiling Yan<sup>†</sup>, **Weixiang Sun**<sup>†</sup>, Rong Zhou<sup>†</sup>, Zhengqing Yuan<sup>†</sup>, Kai Zhang, Yiwei Li, Tianming Liu, Quanzheng Li, Xiang Li, Lifang He, Lichao Sun.
+- ![arxiv 2024](https://img.shields.io/badge/arxiv-2024-red) [AdvLogo: Adversarial Patch Attack against Object Detectors based on Diffusion Models](https://arxiv.org/abs/2409.07002), Boming Miao, Chunxiao Li, Yao Zhu, **Weixiang Sun**, Zizhe Wang, Xiaoyi Wang, Chuanlong Xie.
+- ![NeurIPSW](https://img.shields.io/badge/NeurIPSW-2024-purple) [TTT-Unet: Enhancing U-Net with Test-Time Training Layers for biomedical image segmentation](https://arxiv.org/abs/2409.11299), Rong Zhou<sup>†</sup>, Zhengqing Yuan<sup>†</sup>, Zhiling Yan<sup>†</sup>, **Weixiang Sun**<sup>†</sup>, Kai Zhang, Yiwei Li, Yanfang Ye, Xiang Li, Lifang He, Lichao Sun.
