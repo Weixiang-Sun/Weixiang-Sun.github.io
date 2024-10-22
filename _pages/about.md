@@ -50,4 +50,4 @@ Hi, I am a final year undergraduate student majoring in Information and Computat
 - *2023.05 - Present*, [Lehigh University](), US.
 
 # Full Publication List
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- ![ISCEIC 2022](https://img.shields.io/badge/ISCEIC-2022-pink)[Research and application of improved neural network optimization algorithm](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12462/124622E/Research-and-application-of-improved-neural-network-optimization-algorithm/10.1117/12.2660936.short), **Weixiang Sun**.
