@@ -23,7 +23,7 @@ Hi, I am a final year undergraduate student majoring in Information and Computat
 > I am seeking potential research collaborations and the position of industry research intern. If you are interested, please [contact me](&#40;mailto:kennysweson@gmail.com&#41;).
 
 # 🔥 News
-- *2023.09*: &nbsp;🎉🎉 Our [TTT-Unet: Enhancing U-Net with Test-Time Training Layers for Biomedical Image Segmentation](https://arxiv.org/abs/2409.11299) is released! 
+- *2024.09*: &nbsp;🎉🎉 Our [TTT-Unet: Enhancing U-Net with Test-Time Training Layers for Biomedical Image Segmentation](https://arxiv.org/abs/2409.11299) is released! 
 - *2024.08*: &nbsp;🎉🎉 We release [Biomedical SAM 2: Segment Anything in Biomedical Images and Videos](https://www.arxiv.org/abs/2408.03286). We are still working on it!
 - *2024.06*: &nbsp;🎉🎉 We release [**Bora**](https://weixiang-sun.github.io/Bora/), the **world's first** video generation model specifically for the biomedical domain.
 - *2024.06*: &nbsp;🎉🎉 Our Medical Unlearnable Example is accepted by [ICML2024 NextGenAISafety](https://icml-nextgenaisafety.github.io/)!
