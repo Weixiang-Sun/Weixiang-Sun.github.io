@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Weixiang Sun"
-  avatar           : "images/me_profile.jpeg"
+  avatar           : "images/me_profile.jpg"
   bio              : "Department of Mathematics, College of Science, Northeastern University"
   location         : "Shenyang, China"
   employer         :
