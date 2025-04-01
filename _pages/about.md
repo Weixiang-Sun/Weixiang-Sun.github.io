@@ -20,7 +20,7 @@ redirect_from:
 
 Hi, I am a final year undergraduate student majoring in Information and Computational Science in the [College of Science]() at [Northeastern University](http://english.neu.edu.cn), and I am currently interning under the supervision of Prof. [Lichao Sun](https://lichao-sun.github.io/) in the LAIR(Lehigh AI Research) lab at [Lehigh University](https://www2.lehigh.edu/). I also have in-depth cooperation with Prof. [Xiang Li](https://xiangli-shaun.github.io/) at [Massachusetts General Hospital and Harvard Medical School](https://researchers.mgh.harvard.edu/). My research interests include Large models and their applications in biomedical scenarios. My long-term research goal is to make different large models a trusted, efficient and powerful tool in biomedical domain.  I have published some papers with total <a href='https://scholar.google.com/citations?user=zizf0i0AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
-> I am seeking potential research collaborations and the position of industry research intern. If you are interested, please [contact me](&#40;mailto:kennysweson@gmail.com&#41;).
+> I am seeking potential research collaborations and the position of industry research intern. If you are interested, please [contact me](&#40;mailto:wsun4@nd.edu&#41;).
 
 # 🔥 News
 - *2024.09*: &nbsp;🎉🎉 Our [TTT-Unet: Enhancing U-Net with Test-Time Training Layers for Biomedical Image Segmentation](https://arxiv.org/abs/2409.11299) is released! 
