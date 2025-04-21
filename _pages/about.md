@@ -41,7 +41,8 @@ Hi, I am a final year undergraduate student majoring in Information and Computat
 
 # 📖 Educations
 <!-- - *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
-- *2021.09 - 2025.07*, Department of Mathematics, College of Science, Northeastern University. 
+- *2025.08 - Present*, PhD in Computer Engineering, <img src='images/nd_logo.png' style='width: 1.2em;'>[Univrsity of Notre Dame](https://www.nd.edu/).
+- *2021.09 - 2025.07*, BS in Math, <img src='images/neu_logo.png' style='width: 1.2em;'>[Northeastern University](). 
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -51,7 +52,7 @@ Hi, I am a final year undergraduate student majoring in Information and Computat
 - *2023.05 - Present*, [Lehigh University](), US.
 
 # Full Publication List
-- ![arxiv 2024](https://img.shields.io/badge/arxiv-2024-red) [Social Science Meets LLMs: How Reliable Are Large Language Models in Social Simulations?](https://img.shields.io/badge/arxiv-2024-red)] (https://arxiv.org/abs/2410.23426), Yue Huang, Zhengqing Yuan, Yujun Zhou, Kehan Guo, Xiangqi Wang, Haomin Zhuang, **Weixiang Sun**, Lichao Sun, Jindong Wang, Yanfang Ye, Xiangliang Zhang
+- ![arxiv 2024](https://img.shields.io/badge/arxiv-2024-red) [Social Science Meets LLMs: How Reliable Are Large Language Models in Social Simulations?](https://arxiv.org/abs/2410.23426), Yue Huang, Zhengqing Yuan, Yujun Zhou, Kehan Guo, Xiangqi Wang, Haomin Zhuang, **Weixiang Sun**, Lichao Sun, Jindong Wang, Yanfang Ye, Xiangliang Zhang
 - ![NeurIPSW](https://img.shields.io/badge/NeurIPSW-2024-purple) [TTT-Unet: Enhancing U-Net with Test-Time Training Layers for biomedical image segmentation](https://arxiv.org/abs/2409.11299), Rong Zhou<sup>†</sup>, Zhengqing Yuan<sup>†</sup>, Zhiling Yan<sup>†</sup>, **Weixiang Sun**<sup>†</sup>, Kai Zhang, Yiwei Li, Yanfang Ye, Xiang Li, Lifang He, Lichao Sun.
 - ![arxiv 2024](https://img.shields.io/badge/arxiv-2024-red) [AdvLogo: Adversarial Patch Attack against Object Detectors based on Diffusion Models](https://arxiv.org/abs/2409.07002), Boming Miao, Chunxiao Li, Yao Zhu, **Weixiang Sun**, Zizhe Wang, Xiaoyi Wang, Chuanlong Xie.
 - ![NeurIPSW](https://img.shields.io/badge/NeurIPSW-2024-purple) [Biomedical sam 2: Segment anything in biomedical images and videos](https://arxiv.org/abs/2408.03286), Zhiling Yan<sup>†</sup>, **Weixiang Sun**<sup>†</sup>, Rong Zhou<sup>†</sup>, Zhengqing Yuan<sup>†</sup>, Kai Zhang, Yiwei Li, Tianming Liu, Quanzheng Li, Xiang Li, Lifang He, Lichao Sun.
