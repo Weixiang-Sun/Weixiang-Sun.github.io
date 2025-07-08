@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Weixiang Sun"
-description              : Undergraduate student at Northeastern University. Incoming PhD student at University of Notre Dame.
+description              : PhD student at University of Notre Dame.
 repository               : "weixiang-sun/weixiang-sun.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,9 +22,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Weixiang Sun"
-  avatar           : "images/me_profile.jpg"
-  bio              : "Department of Mathematics, College of Science, Northeastern University"
-  location         : "Shenyang, China"
+  avatar           : "images/me_2025.JPG"
+  bio              : "College of Science and Engineering, University of Notre Dame"
+  location         : "South Bend, USA"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=zizf0i0AAAAJ"
