@@ -30,9 +30,6 @@ Hi, I am a final year undergraduate student majoring in Information and Computat
 - *2023.05*: &nbsp;🎉🎉 I join the LAIR Lab in Lehigh as an intern student. My advisor is [Lichao Sun](https://lichao-sun.github.io/). 
 - *2022.06*: &nbsp;🎉🎉 I'm selected in Northeastern University-North Carolina State University Mathematics Undergraduate International Exchange Program udner the advise of [Kazufumi Ito](https://kito.wordpress.ncsu.edu/).
 
-# 📝 Selected Publications 
-
-{% include_relative includes/pub.md %}
 
 # 🎖 Honors and Awards
 - *2023.07* Tuoxin Scholarship (Top 5%).

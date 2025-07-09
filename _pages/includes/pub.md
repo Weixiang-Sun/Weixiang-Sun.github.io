@@ -1,4 +1,4 @@
-See the full publication list at the bottom of the page or via [Google Scholar](https://scholar.google.com/citations?user=zizf0i0AAAAJ).
+<!-- See the full publication list at the bottom of the page or via [Google Scholar](https://scholar.google.com/citations?user=zizf0i0AAAAJ).
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arxiv preprint</div><img src='images/paper/bora.gif' alt="sym" width="60%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -44,4 +44,4 @@ Zhiling Yan<sup>†</sup>, **Weixiang Sun**<sup>†</sup>, Rong Zhou<sup>†</su
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
+- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** --> -->
