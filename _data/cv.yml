@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Weixiang Sun
     - name: Date of Birth
-      value: 14th March 1879
+      value: 02 Oct 2003
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Notre Dame
+      year: 2025
       description:
         - Description 1.
         - Description 2.
