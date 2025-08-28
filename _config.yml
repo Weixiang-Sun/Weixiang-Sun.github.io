@@ -264,8 +264,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Weixiang]
-  first_name: [Sun, S.]
+  last_name: [Sun]
+  first_name: [Weixiang, W.]
 
   style: apa
   locale: en
