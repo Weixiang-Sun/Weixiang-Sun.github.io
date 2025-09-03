@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Excited to start my Ph.D. at University of Notre Dame.
+A simple inline announcement.
