@@ -6,7 +6,7 @@ subtitle: <a href='https://cse.nd.edu/'>Department of Computer Science and Engin
 
 profile:
   align: right
-  image: IMG_7156.jpg
+  image: SnapInsta.to_582217825_17967372635991591_5627511215824990271_n.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>247B Fitzpatrick Hall</p>
