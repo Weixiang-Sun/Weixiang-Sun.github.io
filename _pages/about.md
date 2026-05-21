@@ -31,14 +31,16 @@ Hi! I'm Weixiang Sun, a first-year Ph.D. student in Computer Science and Enginee
 
 My research interests lie in Agentic AI. Currently, I am focusing on making multi-agent systems more reliable and eliciting collective intelligence that surpasses human organizations. I am also exploring multi-modal multi-agent systems.
 
-If you’re interested in my work or would like to collaborate, feel free to reach out at wsun4[at]nd[dot]edu, or add me on <a href="#" data-bs-toggle="modal" data-bs-target="#wechatModal">WeChat</a>.
+If you’re interested in my work or would like to collaborate, feel free to reach out at wsun4[at]nd[dot]edu, or add me on <a href="#wechatModal" data-toggle="modal" data-target="#wechatModal">WeChat</a>.
 
-<div class="modal fade" id="wechatModal" tabindex="-1" aria-labelledby="wechatModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
+<div class="modal fade" id="wechatModal" tabindex="-1" role="dialog" aria-labelledby="wechatModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="wechatModalLabel">Scan to add me on WeChat</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
       <div class="modal-body text-center">
         <img src="{{ '/assets/img/wechat.JPG' | relative_url }}" alt="WeChat QR Code" style="max-width: 100%; height: auto;">
