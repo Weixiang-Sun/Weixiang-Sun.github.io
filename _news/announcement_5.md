@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will join [Adobe](https://www.adobe.com/) as a Research Scientist Intern in Seattle this summer!
+I will join <img src="{{ '/assets/img/adobe.svg' | relative_url }}" alt="Adobe" style="height: 1em; vertical-align: -0.15em;"> [Adobe](https://www.adobe.com/) as a Research Scientist Intern in Seattle this summer!
