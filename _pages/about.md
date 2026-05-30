@@ -12,7 +12,7 @@ profile:
     <p>247B Fitzpatrick Hall</p>
     <p>Notre Dame, IN 46556</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -27,7 +27,7 @@ latest_posts:
 ---
 
 Hi! I'm Weixiang Sun, a first-year Ph.D. student in Computer Science and Engineering at the [University of Notre Dame](https://nd.edu/)
-, where I am advised by [Yanfang (Fanny) Ye](http://yes-lab.org/) in the [Yes-Lab](http://yes-lab.org/). I received my B.S. in Mathematics from [Northeastern University](https://en.neu.edu.cn/) in 2025. At the end of my freshman year, I was selected for an exchange program with the Department of Mathematics at [NCSU](https://www.ncsu.edu/). During this period, I conducted research in optimization and published my first paper, which sparked my lasting interest in pursuing AI research. I later conducted a research internship at [Lehigh University](https://lehigh.edu) under the supervision of [Lichao Sun](https://lichao-sun.github.io/), with whom I continue to collaborate closely.
+, where I am advised by [Yanfang (Fanny) Ye](http://yes-lab.org/) in the [Yes-Lab](http://yes-lab.org/). I received my B.S. in Mathematics from [Northeastern University](https://en.neu.edu.cn/) in 2025. At the end of my freshman year, I was selected for an exchange program with the Department of Mathematics at [NCSU](https://www.ncsu.edu/). During this period, I conducted research in optimization and published my first paper, which sparked my lasting interest in pursuing AI research. I later conducted a research internship at [Lehigh University](https://lehigh.edu) under the supervision of [Lichao Sun](https://lichao-sun.github.io/).
 
 My research interests lie in Agentic AI. Currently, I am focusing on making multi-agent systems more reliable and eliciting collective intelligence that surpasses human organizations. I am also exploring multi-modal multi-agent systems.
 
