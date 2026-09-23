@@ -31,7 +31,7 @@ Hi! I'm Weixiang Sun, a first-year Ph.D. student in Computer Science and Enginee
 
 My research interests lie in Agentic AI. Currently, I am focusing on making multi-agent systems more reliable and eliciting collective intelligence that surpasses human organizations. I am also exploring multi-modal multi-agent systems.
 
-Outside of research, I was a racing driver and am currently a professional sim racer. I also serve as a sim driving coach for the BMW Junior Team.
+Outside of research, I was a racing driver and am currently a professional sim racer. I also serve as a sim driving coach for the BMW Junior Team. Soccer is another long-time passion of mine — I played as the captain of my department team during my undergraduate years.
 
 If you’re interested in my work or would like to collaborate, feel free to reach out at wsun4[at]nd[dot]edu, or add me on <a href="#wechatModal" data-toggle="modal" data-target="#wechatModal">WeChat</a>.
 
