@@ -52,30 +52,6 @@
         - Co-first author of Mora (multi-agent video generation, ~1.6k GitHub stars), EfficientLLM, and Biomedical SAM-2.
         - First author of Bora (text-guided biomedical video generation).
 
-- title: Selected Publications
-  type: time_table
-  contents:
-    - title: <a href="https://arxiv.org/abs/2608.22152">The Collaboration Tax&#58; How Much LLM Multi-Agent Systems Pay to Coordinate</a>
-      year: EMNLP'26
-      description:
-        - Weixiang Sun, Z. Wang, H. Huang, C. Nelson, Y. Ma, Y. Ye.
-        - Shows that collaboration between LLM agents is not free&#58; working together can cost performance relative to working alone, and the loss comes from how agents communicate rather than how well they reason.
-    - title: <a href="https://arxiv.org/abs/2605.12243">PreScam&#58; A Benchmark for Predicting Scam Progression from Early Conversations</a>
-      year: COLM'26
-      description:
-        - Weixiang Sun, S. Ma, Y. Li, T. Ma, Z. Wang, C. Nelson, X. Xiao, Y. Ye.
-        - A benchmark of real scam conversations for anticipating where an interaction is heading; current models pick up some cues but miss how manipulation escalates.
-    - title: Collaborating Without Converging&#58; Quality and Diversity in Multi-Agent Creative Generation
-      year: Under review
-      description:
-        - Weixiang Sun, D. Li, Y. Ye, J. G. Nelson.
-        - Shows that multi-agent collaboration improves quality but pulls agents' ideas together, and explains this with opinion dynamics, pointing to communication designs that keep diversity.
-    - title: The Average Patient&#58; Do Simulated Psychiatric Patients Answer Like Real People?
-      year: Under review
-      description:
-        - Weixiang Sun, Z. Wang, K. Shi, H. Huang, C. Nelson, Y. Li, Y. Ye.
-        - Shows that LLM-simulated patients answer like an "average patient", far less varied than real people, which limits what simulator-based training and evaluation can test.
-
 - title: Service & Mentorship
   type: map
   contents:

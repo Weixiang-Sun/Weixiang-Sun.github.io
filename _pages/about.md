@@ -26,8 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm Weixiang Sun, a first-year Ph.D. student in Computer Science and Engineering at the [University of Notre Dame](https://nd.edu/)
-, where I am advised by [Yanfang (Fanny) Ye](http://yes-lab.org/) in the [Yes-Lab](http://yes-lab.org/). I received my B.S. in Mathematics from [Northeastern University](https://en.neu.edu.cn/) in 2025. At the end of my freshman year, I was selected for an exchange program with the Department of Mathematics at [NCSU](https://www.ncsu.edu/). During this period, I conducted research in optimization and published my first paper, which sparked my lasting interest in pursuing AI research. I later conducted a research internship at [Lehigh University](https://lehigh.edu) under the supervision of [Lichao Sun](https://lichao-sun.github.io/).
+Hi! I'm Weixiang Sun, a second-year Ph.D. student in Computer Science and Engineering at the [University of Notre Dame](https://nd.edu/)
+, where I am advised by [Yanfang (Fanny) Ye](http://yes-lab.org/) in the [Yes-Lab](http://yes-lab.org/). I received my B.S. in Information and Computing Science from [Northeastern University](https://en.neu.edu.cn/) in 2025. At the end of my freshman year, I was selected for an exchange program with the Department of Mathematics at [NCSU](https://www.ncsu.edu/). During this period, I conducted research in optimization and published my first paper, which sparked my lasting interest in pursuing AI research. I later conducted a research internship at [Lehigh University](https://lehigh.edu) under the supervision of [Lichao Sun](https://lichao-sun.github.io/).
 
 My research interests lie in Agentic AI. Currently, I am focusing on making multi-agent systems more reliable and eliciting collective intelligence that surpasses human organizations. I am also exploring multi-modal multi-agent systems.
 
