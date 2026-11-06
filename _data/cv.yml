@@ -37,20 +37,12 @@
     - title: Research Intern
       institution: Adobe, Seattle, WA, USA
       year: Jun - Oct 2026
-      description:
-        - Led the study of quality and diversity in multi-agent creative generation, showing how communication topology and agent stubbornness trade one against the other.
     - title: Applied Scientist Intern
       institution: Li Auto Inc., Beijing, China
       year: Mar - Jun 2025
-      description:
-        - Architected the computer-use agent module of Li Auto's in-house LLM assistant, with hierarchical planning and tool-use orchestration.
-        - A zoom-in mechanism for high-resolution screens raised task success from 31% to 57%, and the module shipped to production.
     - title: Research Intern
       institution: Lehigh University & MGH / Harvard Medical School, Remote
       year: 2023 - 2025
-      description:
-        - Co-first author of Mora (multi-agent video generation, ~1.6k GitHub stars), EfficientLLM, and Biomedical SAM-2.
-        - First author of Bora (text-guided biomedical video generation).
 
 - title: Service & Mentorship
   type: map
