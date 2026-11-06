@@ -2,96 +2,111 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Weixiang Sun
+    - name: Position
+      value: Ph.D. Student, University of Notre Dame
+    - name: Email
+      value: wsun4@nd.edu
+    - name: Phone
+      value: +1 574 850 3601
     - name: Languages
-      value: English, German
+      value: English, Chinese
+
+- title: Research Summary
+  type: nested_list
+  contents:
+    - title: I aim to build a science of <b>AI&ndash;AI interaction</b>. HCI and HAI study how people interact with computers and AI; as AI agents increasingly collaborate with, evaluate, and stand in for one another, I study them the way sociology studies people, from the individual <b>agent</b> to <b>micro</b>-level interaction to <b>macro</b>-level societies. A recurring lesson is that what holds for one agent does not hold for many&#58; collaboration between agents is not free and does not always pay off, interaction can erode the diversity that makes a group valuable, and agents standing in for people flatten the variety of real populations. I want to understand these dynamics well enough to make systems of many AI agents reliable and safe.
+      items:
+        - <b>Agent.</b> How one agent plans, acts, and learns&#58; computer-use agents in production (Li Auto), long-horizon planning, self-evolving agents, and agents that serve people in social services.
+        - <b>Micro.</b> How agents shape each other&#58; when collaboration pays off, how interaction shapes collective output, and multi-agent systems for creative and scientific work; as a human reference, how manipulation unfolds in conversation.
+        - <b>Macro.</b> How agent populations behave and stand in for people&#58; how faithfully LLMs simulate individuals and social roles, and simulating how policies play out across populations.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Ph.D. in Computer Science and Engineering
+      institution: University of Notre Dame, South Bend, IN, USA
+      year: 2025 - present
+    - title: B.S. in Information and Computing Science
+      institution: Northeastern University, Shenyang, China
+      year: 2021 - 2025
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Intern
+      institution: Adobe, Seattle, WA, USA
+      year: Jun - Oct 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Led the study of quality and diversity in multi-agent creative generation, showing how communication topology and agent stubbornness trade one against the other.
+    - title: Applied Scientist Intern
+      institution: Li Auto Inc., Beijing, China
+      year: Mar - Jun 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Architected the computer-use agent module of Li Auto's in-house LLM assistant, with hierarchical planning and tool-use orchestration.
+        - A zoom-in mechanism for high-resolution screens raised task success from 31% to 57%, and the module shipped to production.
+    - title: Research Intern
+      institution: Lehigh University & MGH / Harvard Medical School, Remote
+      year: 2023 - 2025
       description:
+        - Co-first author of Mora (multi-agent video generation, ~1.6k GitHub stars), EfficientLLM, and Biomedical SAM-2.
+        - First author of Bora (text-guided biomedical video generation).
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Selected Publications
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://arxiv.org/abs/2608.22152">The Collaboration Tax&#58; How Much LLM Multi-Agent Systems Pay to Coordinate</a>
+      year: EMNLP'26
+      description:
+        - Weixiang Sun, Z. Wang, H. Huang, C. Nelson, Y. Ma, Y. Ye.
+        - Shows that collaboration between LLM agents is not free&#58; working together can cost performance relative to working alone, and the loss comes from how agents communicate rather than how well they reason.
+    - title: <a href="https://arxiv.org/abs/2605.12243">PreScam&#58; A Benchmark for Predicting Scam Progression from Early Conversations</a>
+      year: COLM'26
+      description:
+        - Weixiang Sun, S. Ma, Y. Li, T. Ma, Z. Wang, C. Nelson, X. Xiao, Y. Ye.
+        - A benchmark of real scam conversations for anticipating where an interaction is heading; current models pick up some cues but miss how manipulation escalates.
+    - title: Collaborating Without Converging&#58; Quality and Diversity in Multi-Agent Creative Generation
+      year: Under review
+      description:
+        - Weixiang Sun, D. Li, Y. Ye, J. G. Nelson.
+        - Shows that multi-agent collaboration improves quality but pulls agents' ideas together, and explains this with opinion dynamics, pointing to communication designs that keep diversity.
+    - title: The Average Patient&#58; Do Simulated Psychiatric Patients Answer Like Real People?
+      year: Under review
+      description:
+        - Weixiang Sun, Z. Wang, K. Shi, H. Huang, C. Nelson, Y. Li, Y. Ye.
+        - Shows that LLM-simulated patients answer like an "average patient", far less varied than real people, which limits what simulator-based training and evaluation can test.
+
+- title: Service & Mentorship
+  type: map
+  contents:
+    - name: Reviewer
+      value: NeurIPS 2025, COLM 2026, ICLR 2027
+    - name: Mentorship
+      value: Mentored 5 students from NUS, CUHK, Fudan, and Lanzhou University (2024 - 2025)
+    - name: Membership
+      value: IEEE Graduate Member
+
+- title: Talks
+  type: time_table
+  contents:
+    - title: Presenter, RISE AI Conference
+      institution: South Bend, IN, USA
+      year: Oct 2025
+      description:
+        - Presented the Chemistry and Biology chapters of LLMs4All on LLMs for drug discovery; panelist on AI-for-Science and Biomedicine.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Tuoxin Innovation Scholarship (top 2%)
+        - Second-Class Scholarship (top 10%)
+    - year: 2022
       items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Third-Class Scholarship (top 15%)
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Sim racing (professional sim racer; sim driving coach for the BMW Junior Team), soccer (captain of my department team in undergrad).
