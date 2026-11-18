@@ -66,6 +66,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026
+      items:
+        - <a href="https://graduateschool.nd.edu/graduate-training/research-communication/gspda/">Graduate School Professional Development Award (GSPDA)</a>, University of Notre Dame
     - year: 2023
       items:
         - Tuoxin Innovation Scholarship (top 2%)
