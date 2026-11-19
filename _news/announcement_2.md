@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We release [LLMs4All: A Review on Large Language Models for Research and Applications in Academic Disciplines
-](https://arxiv.org/abs/2509.19580).
+We release [LLMs4All: A Review on Large Language Models for Research and Applications in Academic Disciplines](https://arxiv.org/abs/2509.19580).

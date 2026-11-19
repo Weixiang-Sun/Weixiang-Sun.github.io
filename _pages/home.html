@@ -1,0 +1,101 @@
+---
+layout: site
+title: Home
+permalink: /
+nav: home
+pubs: true
+---
+<div class="view">
+  <div class="wrap">
+    <div class="hero">
+      <div>
+        <h1 class="hero-name">Weixiang <span class="aka">(Sweson)</span> Sun</h1>
+        <p class="hero-role"><span>Ph.D. student, Computer Science and Engineering</span><br><span>University of Notre Dame</span> · <span>Yes-Lab</span></p>
+        <div class="prose hero-bio">
+          <p>Hi! I'm Weixiang Sun, a second-year Ph.D. student in Computer Science and Engineering at the <a href="https://nd.edu/" target="_blank" rel="noopener">University of Notre Dame</a>, where I am advised by <a href="http://yes-lab.org/" target="_blank" rel="noopener">Yanfang (Fanny) Ye</a> in the <a href="http://yes-lab.org/" target="_blank" rel="noopener">Yes-Lab</a>. I received my B.S. in Information and Computing Science from <a href="https://en.neu.edu.cn/" target="_blank" rel="noopener">Northeastern University</a> in 2025. At the end of my freshman year, I was selected as an exchange student at <a href="https://www.ncsu.edu/" target="_blank" rel="noopener">NCSU</a>. I later conducted a research internship at <a href="https://lehigh.edu" target="_blank" rel="noopener">Lehigh University</a> under the supervision of <a href="https://lichao-sun.github.io/" target="_blank" rel="noopener">Lichao Sun</a>.</p>
+          <p>My research interests lie in Agentic AI. Currently, I am focusing on making multi-agent systems more reliable and eliciting collective intelligence that surpasses human organizations. I am also exploring multi-modal multi-agent systems.</p>
+          <p class="contact-lead">If you're interested in my work or would like to collaborate, feel free to reach out.</p>
+        </div>
+        <ul class="contact" aria-label="Contact and profiles">
+          <li><button type="button" class="email" data-copy="wsun4@nd.edu" aria-label="Copy email address wsun4@nd.edu"><span class="email-text">wsun4@nd.edu</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></li>
+          <li><a class="u" href="https://scholar.google.com/citations?user=zizf0i0AAAAJ" target="_blank" rel="noopener">Google Scholar<span class="ext">↗</span></a></li>
+          <li><a class="u" href="https://github.com/Weixiang-Sun" target="_blank" rel="noopener">GitHub<span class="ext">↗</span></a></li>
+          <li><a class="u" href="https://www.linkedin.com/in/weixiang-sun-76641a263" target="_blank" rel="noopener">LinkedIn<span class="ext">↗</span></a></li>
+          <li><button type="button" class="u" id="wechat-btn" aria-expanded="false" aria-controls="wechat-pop">WeChat</button></li>
+          <li><a class="u" href="{{ '/assets/pdf/WeixiangSun_CV.pdf' | relative_url }}" target="_blank" rel="noopener">CV<span class="ext">↗</span></a></li>
+        </ul>
+      </div>
+      <figure class="portrait">
+        <img src="{{ '/assets/img/site/portrait.jpg' | relative_url }}" alt="Portrait of Weixiang Sun" width="720" height="956">
+        <figcaption>247B Fitzpatrick Hall<br>Notre Dame, IN 46556</figcaption>
+      </figure>
+    </div>
+
+    <section class="row" aria-labelledby="news-h">
+      <h2 class="row-label" id="news-h">News</h2>
+      <ol class="news">
+        {%- assign news = site.news | sort: "date" | reverse -%}
+        {%- for item in news limit: 8 %}
+        <li><time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%b %-d, %Y" }}</time><div class="news-text prose">{{ item.content }}</div></li>
+        {%- endfor %}
+      </ol>
+    </section>
+
+    <section class="row" aria-labelledby="sel-h">
+      <h2 class="row-label" id="sel-h">Selected papers</h2>
+      <div>
+        <ol class="pubs" id="selected-pubs"></ol>
+        <a class="more u" href="{{ '/publications/' | relative_url }}">All {{ site.data.publications | size }} publications →</a>
+      </div>
+    </section>
+
+    <section class="row" aria-labelledby="out-h">
+      <h2 class="row-label" id="out-h">Outside research</h2>
+      <div class="outside-row">
+        <div class="prose"><p class="outside">Outside of research, I was a racing driver and am currently a professional sim racer. I also serve as a sim driving coach for the BMW Junior Team. Soccer is another long-time passion of mine — I played as the captain of my department team during my undergraduate years.</p></div>
+        <svg class="illo" viewBox="74 40 260 180" aria-hidden="true" focusable="false">
+          <defs>
+            <filter id="illo-rough" x="-5%" y="-5%" width="110%" height="110%">
+              <feTurbulence type="fractalNoise" baseFrequency="0.014" numOctaves="2" seed="11" result="n"/>
+              <feDisplacementMap in="SourceGraphic" in2="n" scale="2.4" xChannelSelector="R" yChannelSelector="G"/>
+            </filter>
+          </defs>
+          <!-- flat color, printed slightly off-register from the line work -->
+          <g filter="url(#illo-rough)">
+            <g transform="rotate(-9 150 118) translate(8 7)">
+              <path class="illo-blob" fill-rule="evenodd" d="M106 170 A68 68 0 1 1 194 170 Z M113 160 A56 56 0 1 1 187 160 Z"/>
+              <rect class="illo-blob" x="122" y="100" width="56" height="36" rx="9"/>
+            </g>
+            <circle class="illo-tint" cx="253" cy="179" r="36"/>
+          </g>
+          <g class="illo-line" filter="url(#illo-rough)">
+            <!-- sim racing wheel -->
+            <g transform="rotate(-9 150 118)">
+              <path d="M106 170 A68 68 0 1 1 194 170 Z"/>
+              <path d="M113 160 A56 56 0 1 1 187 160 Z"/>
+              <path d="M94.2 113 H122 M94.2 123 H122 M178 113 H205.8 M178 123 H205.8 M144 136 V160 M156 136 V160"/>
+              <path d="M96.2 96.3 L88.8 93.3 M93.7 104 L86 102 M93.7 132 L86 134 M96.2 139.7 L88.8 142.7 M203.8 96.3 L211.2 93.3 M206.3 104 L214 102 M206.3 132 L214 134 M203.8 139.7 L211.2 142.7"/>
+              <rect x="122" y="100" width="56" height="36" rx="9"/>
+              <circle class="hot" cx="136" cy="107" r="2"/><circle class="hot" cx="143" cy="107" r="2"/><circle class="hot" cx="150" cy="107" r="2"/>
+              <circle cx="157" cy="107" r="2"/><circle cx="164" cy="107" r="2"/>
+              <rect x="134" y="113" width="32" height="13" rx="3"/>
+              <text class="illo-txt" x="150" y="123.4" text-anchor="middle">3</text>
+              <circle cx="131" cy="129" r="2.4"/><circle cx="169" cy="129" r="2.4"/>
+            </g>
+            <!-- soccer ball -->
+            <circle cx="246" cy="172" r="36"/>
+            <polygon class="k" points="246,161 256.5,168.6 252.5,180.9 239.5,180.9 235.5,168.6"/>
+            <path d="M246 161 L246 150 M256.5 168.6 L266.9 165.2 M252.5 180.9 L258.9 189.8 M239.5 180.9 L233.1 189.8 M235.5 168.6 L225.1 165.2"/>
+            <path d="M231.4 139.1 L246 150 L260.6 139.1 M272.7 147.9 L266.9 165.2 L281.8 175.8 M277.2 190 L258.9 189.8 L253.5 207.2 M238.5 207.2 L233.1 189.8 L214.8 190 M210.2 175.8 L225.1 165.2 L219.3 147.9"/>
+            <path d="M296 150 h18 M302 164 h24 M298 178 h14"/>
+          </g>
+        </svg>
+      </div>
+    </section>
+  </div>
+</div>
+
+<div class="popover" id="wechat-pop" role="dialog" aria-label="WeChat QR code" hidden>
+  <img src="{{ '/assets/img/site/wechat.jpg' | relative_url }}" alt="WeChat QR code for Weixiang Sun" width="420" height="563">
+  <p>Scan to add me on WeChat</p>
+</div>

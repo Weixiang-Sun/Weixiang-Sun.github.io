@@ -1,0 +1,37 @@
+---
+layout: site
+title: Publications
+permalink: /publications/
+nav: publications
+pubs: true
+description: Publications by Weixiang Sun, newest first.
+---
+<div class="view">
+  <div class="wrap">
+    <header class="page-head">
+      <h1 class="page-title">Publications</h1>
+      <p class="page-sub">Every paper, newest first. Click a figure to see it larger. Citation counts live on <a class="u" href="https://scholar.google.com/citations?user=zizf0i0AAAAJ" target="_blank" rel="noopener">Google Scholar<span class="ext">↗</span></a>.</p>
+      <ul class="legend" aria-label="How to read the list">
+        <li><span class="venue venue--acc">Published</span></li>
+        <li><span class="venue venue--rev">Under review</span></li>
+        <li><span class="venue venue--pre">Preprint</span></li>
+        <li class="marks">* equal contribution · † corresponding author</li>
+      </ul>
+      <div class="pub-controls">
+        <div class="seg" role="group" aria-label="Filter by authorship">
+          <button type="button" data-filter="all" aria-pressed="true">All <span class="count" id="count-all">0</span></button>
+          <button type="button" data-filter="first" aria-pressed="false">First author <span class="count" id="count-first">0</span></button>
+        </div>
+        <label class="search">
+          <span class="sr-only">Search publications</span>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg>
+          <input id="pub-search" type="search" placeholder="Search titles, authors, venues" autocomplete="off">
+        </label>
+        <p class="pub-status" aria-live="polite"><span id="pub-shown">0</span> of <span id="pub-total">0</span> shown</p>
+      </div>
+    </header>
+    <div id="pub-list"></div>
+    <p class="pub-empty" id="pub-empty" hidden>No papers match that search. Try a title word, a co-author or a venue such as “EMNLP”.</p>
+    <noscript><p class="pub-empty">The publication list needs JavaScript. The full list is also in the <a class="u" href="{{ '/assets/pdf/WeixiangSun_CV.pdf' | relative_url }}">CV</a>.</p></noscript>
+  </div>
+</div>

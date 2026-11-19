@@ -1,0 +1,27 @@
+---
+layout: site
+title: Projects
+permalink: /projects/
+nav: projects
+description: Project pages for work Weixiang Sun led or co-led.
+---
+<div class="view">
+  <div class="wrap">
+    <header class="page-head">
+      <h1 class="page-title">Projects</h1>
+      <p class="page-sub">Project pages for work I led or co-led.</p>
+    </header>
+    <ul class="proj-grid">
+      {%- for p in site.data.projects %}
+      <li{% if forloop.first %} class="proj-item--wide"{% endif %}>
+        <a class="proj" href="{{ p.url }}" target="_blank" rel="noopener">
+          <div class="proj-cover"><img src="{{ '/assets/img/pubs/' | append: p.image | append: '.webp' | relative_url }}" alt="" loading="lazy" decoding="async"></div>
+          <p class="proj-meta">{{ p.meta }}</p>
+          <h2 class="proj-title">{{ p.title }}<span class="ext">↗</span></h2>
+          <p class="proj-desc">{{ p.description }}</p>
+        </a>
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</div>

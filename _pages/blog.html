@@ -1,0 +1,35 @@
+---
+layout: site
+title: Blog
+permalink: /blog/
+nav: blog
+description: Notes by Weixiang Sun on research and other things.
+---
+<div class="view">
+  <div class="wrap">
+    <header class="page-head">
+      <h1 class="page-title">Blog</h1>
+      <p class="page-sub">Notes on research and other things I'm thinking about.</p>
+    </header>
+    {%- if site.posts.size > 0 %}
+    <ol class="post-list">
+      {%- for post in site.posts %}
+      {%- assign words = post.content | number_of_words %}
+      {%- assign minutes = words | divided_by: 200 | at_least: 1 %}
+      <li class="post-item">
+        <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+        <div>
+          <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+          {%- if post.description %}
+          <p class="post-dek">{{ post.description }}</p>
+          {%- endif %}
+          <p class="post-meta"><span>{{ minutes }} min read</span></p>
+        </div>
+      </li>
+      {%- endfor %}
+    </ol>
+    {%- else %}
+    <p class="blog-empty">No posts yet.</p>
+    {%- endif %}
+  </div>
+</div>

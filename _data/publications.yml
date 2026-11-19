@@ -1,0 +1,622 @@
+# Publications shown on the home page (selected) and on /publications/.
+# Order matters: papers are grouped by year, and keep this order inside each year.
+#
+#   title, authors, year, venue      required. Mark equal contribution with * and the
+#                                    corresponding author with † at the end of a name.
+#   et_al: true                      the author list is truncated.
+#   venue_note                       small text after the venue, e.g. "Main · Oral".
+#   status                           published | under_review | preprint
+#   bib_type                         conf | workshop | journal | preprint | review (BibTeX entry type)
+#   bib_venue                        full booktitle / journal for BibTeX.
+#   volume, pages, venue_detail      optional details (venue_detail is shown under the authors).
+#   arxiv, website, code             links. website = project page.
+#   first_author: true               counts for the "First author" filter.
+#   figure                           file name in assets/img/pubs/ without ".webp".
+#   figure_size: [width, height]     optional; lets a tall figure get a tall frame before it loads.
+#   figure_caption                   shown when the figure is enlarged.
+#   short_title                      used on the placeholder when there is no figure.
+#   selected: true + summary         shows the paper under "Selected papers" on the home page.
+
+- title: 'The Collaboration Tax: How Much LLM Multi-Agent Systems Pay to Coordinate'
+  authors:
+  - Weixiang Sun
+  - Zehong Wang
+  - Hong Huang
+  - Colby Nelson
+  - Yijun Ma
+  - Yanfang Ye
+  year: 2026
+  venue: EMNLP 2026
+  venue_note: Main
+  status: published
+  bib_type: conf
+  bib_venue: Conference on Empirical Methods in Natural Language Processing (EMNLP)
+  arxiv: '2608.22152'
+  website: https://weixiang-sun.github.io/collaboration-tax/
+  first_author: true
+  figure: collabtax
+  figure_size:
+  - 720
+  - 835
+  figure_caption: Fig. 1 · The collaboration tax. Two LLM agents with private views on a shared problem (top) are expected to outperform either alone…
+  selected: true
+  summary: 'Shows that collaboration between LLM agents is not free: working together can cost performance relative to working alone, and the loss comes from how agents communicate rather than how well they reason.'
+- title: 'PreScam: A Benchmark for Predicting Scam Progression from Early Conversations'
+  authors:
+  - Weixiang Sun
+  - Shang Ma
+  - Yiyang Li
+  - Tianyi Ma
+  - Zehong Wang
+  - Colby Nelson
+  - Xusheng Xiao
+  - Yanfang Ye
+  year: 2026
+  venue: COLM 2026
+  status: published
+  bib_type: conf
+  bib_venue: Conference on Language Modeling (COLM)
+  arxiv: '2605.12243'
+  first_author: true
+  figure: prescam
+  figure_size:
+  - 1200
+  - 405
+  figure_caption: 'Fig. 1 · From Raw BBB Report to PreScam Instance: an example of scam conversation extraction and kill chain structuralization.'
+  selected: true
+  summary: A benchmark of real scam conversations for anticipating where an interaction is heading; current models pick up some cues but miss how manipulation escalates.
+- title: 'Collaborating Without Converging: Quality and Diversity in Multi-Agent Creative Generation'
+  authors:
+  - Weixiang Sun
+  - Dingzeyu Li
+  - Yanfang Ye
+  - John G Nelson
+  year: 2026
+  venue: Under review
+  venue_note: ACL Rolling Review
+  status: under_review
+  bib_type: review
+  first_author: true
+  short_title: Collaborating Without Converging
+  selected: true
+  summary: Shows that multi-agent collaboration improves quality but pulls agents' ideas together, and explains this with opinion dynamics, pointing to communication designs that keep diversity.
+- title: 'The Average Patient: Do Simulated Psychiatric Patients Answer Like Real People?'
+  authors:
+  - Weixiang Sun
+  - Zehong Wang
+  - Kaiwen Shi
+  - Hong Huang
+  - Colby Nelson
+  - Yiyang Li
+  - Yanfang Ye
+  year: 2026
+  venue: Under review
+  venue_note: ACL Rolling Review
+  status: under_review
+  bib_type: review
+  arxiv: '2611.11679'
+  website: https://weixiang-sun.github.io/average-patient/
+  first_author: true
+  figure: avgpatient
+  figure_size:
+  - 877
+  - 296
+  figure_caption: Fig. 1 · Response profiles on the PHQ-9 and GAD-7.
+  selected: true
+  summary: Shows that LLM-simulated patients answer like an “average patient”, far less varied than real people, which limits what simulator-based training and evaluation can test.
+- title: 'TTT-Unet: Enhancing U-Net with Test-Time Training Layers for Biomedical Image Segmentation'
+  authors:
+  - Rong Zhou*
+  - Zhengqing Yuan*
+  - Zhiling Yan*
+  - Weixiang Sun*
+  - Kai Zhang
+  - Yiwei Li
+  - Yanfang Ye
+  - Xiang Li
+  - Lifang He
+  - Lichao Sun
+  year: 2026
+  venue: MIDL 2026
+  venue_note: Oral
+  status: published
+  bib_type: conf
+  bib_venue: Medical Imaging with Deep Learning (MIDL)
+  arxiv: '2409.11299'
+  first_author: true
+  figure: tttunet
+  figure_size:
+  - 1200
+  - 629
+  figure_caption: Fig. 1 · (a) The overall framework of TTT-UNet. (b) TTT Building Block. (c) TTT Layer.
+- title: 'EfficientLLM: Efficiency in Large Language Models'
+  authors:
+  - Zhengqing Yuan*
+  - Weixiang Sun*
+  - Yixin Liu*
+  - Huichi Zhou*
+  - Rong Zhou
+  - Yiyang Li
+  - Zheyuan Zhang
+  - Wei Song
+  - Yue Huang
+  - Haolong Jia
+  et_al: true
+  year: 2025
+  venue: arXiv preprint
+  status: preprint
+  bib_type: preprint
+  arxiv: '2505.13840'
+  website: https://dlyuangod.github.io/EfficientLLM/
+  code: https://github.com/DLYuanGod/EfficientLLM
+  first_author: true
+  figure: efficientllm
+  figure_size:
+  - 1200
+  - 728
+- title: 'LLMs4All: A Review on Large Language Models for Research and Applications in Academic Disciplines'
+  authors:
+  - Yanfang Ye*
+  - Zheyuan Zhang*
+  - Tianyi Ma*
+  - Zehong Wang*
+  - Yiyang Li*
+  - Shifu Hou*
+  - Weixiang Sun*
+  - Kaiwen Shi*
+  - Yijun Ma
+  - Wei Song
+  - Ahmed Abbasi
+  et_al: true
+  year: 2025
+  venue: arXiv preprint
+  status: preprint
+  bib_type: preprint
+  arxiv: '2509.19580'
+  first_author: true
+  figure: llms4all
+  figure_size:
+  - 1200
+  - 537
+  figure_caption: Fig. 3 · Chronological display of current SOTA LLMs.
+- title: 'Mora: Enabling Generalist Video Generation via a Multi-Agent Framework'
+  authors:
+  - Zhengqing Yuan*
+  - Yixin Liu*
+  - Weixiang Sun*
+  - Yihan Cao*
+  - Haolong Jia
+  - Ruoxi Chen
+  - Zhaoxu Li
+  - Bin Lin
+  - Li Yuan
+  - Lifang He
+  et_al: true
+  year: 2024
+  venue: arXiv preprint
+  status: preprint
+  bib_type: preprint
+  arxiv: '2403.13248'
+  website: https://mora-2025.github.io/
+  code: https://github.com/lichao-sun/Mora
+  first_author: true
+  figure: mora
+  figure_size:
+  - 1200
+  - 546
+- title: 'Bora: Biomedical Generalist Video Generation Model'
+  authors:
+  - Weixiang Sun
+  - Xiaocao You
+  - Ruizhe Zheng
+  - Zhengqing Yuan
+  - Xiang Li
+  - Lifang He
+  - Quanzheng Li
+  - Lichao Sun
+  year: 2024
+  venue: arXiv preprint
+  status: preprint
+  bib_type: preprint
+  arxiv: '2407.08944'
+  website: https://weixiang-sun.github.io/Bora/
+  first_author: true
+  figure: bora
+  figure_size:
+  - 1025
+  - 714
+  figure_caption: 'Fig. 2 · Some simple video examples produced by Bora and their corresponding text prompts showcase four biological modalities: endoscopy, ultrasound, real-time MRI, and cellular visualization.'
+- title: 'Biomedical SAM 2: Segment Anything in Biomedical Images and Videos'
+  authors:
+  - Zhiling Yan*
+  - Weixiang Sun*
+  - Rong Zhou*
+  - Zhengqing Yuan*
+  - Kai Zhang
+  - Yiwei Li
+  - Tianming Liu
+  - Quanzheng Li
+  - Xiang Li
+  - Lifang He
+  - Lichao Sun
+  year: 2024
+  venue: arXiv preprint
+  status: preprint
+  bib_type: preprint
+  arxiv: '2408.03286'
+  first_author: true
+  figure: biosam2
+  figure_size:
+  - 1200
+  - 679
+  figure_caption: Fig. 1 · Overview of biomedical tasks in BioSAM-2.
+- title: 'Medical Unlearnable Examples: Securing Medical Data from Unauthorized Training via Sparsity-Aware Local Masking'
+  authors:
+  - Weixiang Sun
+  - Yixin Liu
+  - Zhiling Yan
+  - Kaidi Xu
+  - Lichao Sun
+  year: 2024
+  venue: ICML 2024 Workshop
+  venue_note: NextGenAISafety
+  status: published
+  bib_type: workshop
+  bib_venue: ICML NextGenAISafety Workshop
+  arxiv: '2403.10573'
+  first_author: true
+  figure: medunlearn
+  figure_size:
+  - 1200
+  - 640
+  figure_caption: 'Fig. 1 · Our SALM method comprises a comprehensive framework that encompasses two primary steps: important pixel acquisition and noise generator training.'
+- title: Research and Application of Improved Neural Network Optimization Algorithm
+  authors:
+  - Weixiang Sun
+  year: 2023
+  venue: ISCEIC 2022
+  venue_note: SPIE
+  status: published
+  bib_type: conf
+  bib_venue: Third International Symposium on Computer Engineering and Intelligent Communications (ISCEIC 2022)
+  volume: '12462'
+  pages: 602--606
+  venue_detail: SPIE vol. 12462, pp. 602–606
+  first_author: true
+  short_title: Neural Network Optimization
+- title: 'HoosierHelp: Benchmarking LLM Agents for Social Service Navigation'
+  authors:
+  - Yiyang Li
+  - Weixiang Sun
+  - Tianyi Ma
+  - Kaiwen Shi
+  - Zheyuan Zhang
+  - Yanfang Ye
+  year: 2026
+  venue: arXiv preprint
+  status: preprint
+  bib_type: preprint
+  arxiv: '2608.09946'
+  figure: hoosierhelp
+  figure_size:
+  - 447
+  - 170
+  figure_caption: Fig. 1 · Illustration of social service navigation agents. The agent collects information from the user and queries the database to find the best-matched resources.
+- title: 'CiteAudit: You Cited It, but Did You Read It? A Benchmark for Verifying Scientific References in the LLM Era'
+  authors:
+  - Kaiwen Shi
+  - Weixiang Sun
+  - Zheyuan Zhang
+  - Lichao Sun
+  - Nitesh V Chawla
+  - Yanfang Ye
+  year: 2026
+  venue: arXiv preprint
+  status: preprint
+  bib_type: preprint
+  arxiv: '2602.23452'
+  figure: citeaudit
+  figure_size:
+  - 1200
+  - 456
+  figure_caption: Fig. 3 · Overview of CiteAudit, a SOP-driven multi-agent citation verification framework.
+- title: 'IQE-CLIP: Instance-aware Query Embedding for Zero-/Few-shot Anomaly Detection in Medical Domain'
+  authors:
+  - Hong Huang
+  - Weixiang Sun
+  - Zhijian Wu
+  - Donghuan Lu
+  - Xian Wu
+  - Yefeng Zheng
+  year: 2026
+  venue: IEEE TIP
+  status: published
+  bib_type: journal
+  bib_venue: IEEE Transactions on Image Processing
+  venue_detail: IEEE Transactions on Image Processing
+  arxiv: '2506.10730'
+  figure: iqeclip
+  figure_size:
+  - 1200
+  - 587
+  figure_caption: 'Fig. 2 · Framework of IQE-CLIP, which primarily consists of two steps: prompt tuning and instance-aware query embedding learning.'
+- title: 'Policy4OOD: A Knowledge-Guided World Model for Policy Intervention Simulation against the Opioid Overdose Crisis'
+  authors:
+  - Yijun Ma
+  - Zehong Wang
+  - Weixiang Sun
+  - Zheyuan Zhang
+  - Kaiwen Shi
+  - Nitesh Chawla
+  - Yanfang Ye
+  year: 2026
+  venue: arXiv preprint
+  status: preprint
+  bib_type: preprint
+  arxiv: '2602.12373'
+  figure: policy4ood
+  figure_size:
+  - 1087
+  - 359
+  figure_caption: Fig. 1 · (a) The opioid overdose crisis emerges from a complex, dynamic socio-economic system with interacting risk factors and cross-region spillovers.
+- title: Temporal Graph Pattern Machine
+  authors:
+  - Yijun Ma
+  - Zehong Wang
+  - Weixiang Sun
+  - Yanfang Ye
+  year: 2026
+  venue: arXiv preprint
+  status: preprint
+  bib_type: preprint
+  arxiv: '2601.22454'
+  figure: tgpm
+  figure_size:
+  - 1200
+  - 544
+  figure_caption: Fig. 1 · Overview of TGPM. (a) Temporal context of an interaction is represented by an interaction patch aggregated from a set of temporally biased random walks.
+- title: 'Vision-MoR: Scaling Vision Transformer via Patch-Level Mixture-of-Recursions'
+  authors:
+  - Yunhong He
+  - Zhengqing Yuan
+  - Weixiang Sun
+  - Yiyang Li
+  - Yixin Liu
+  - Yanfang Ye
+  - Lichao Sun
+  year: 2026
+  venue: AAAI 2026
+  status: published
+  bib_type: conf
+  bib_venue: Proceedings of the AAAI Conference on Artificial Intelligence
+  volume: '40'
+  pages: 4699--4707
+  venue_detail: Vol. 40, pp. 4699–4707
+- title: 'SupraBench: A Benchmark for Supramolecular Chemistry'
+  authors:
+  - Tianyi Ma
+  - Yijun Ma
+  - Zehong Wang
+  - Weixiang Sun
+  - Ziming Li
+  - Connor R Schmidt
+  - Chuxu Zhang
+  - Matthew J Webber
+  - Yanfang Ye
+  year: 2026
+  venue: arXiv preprint
+  status: preprint
+  bib_type: preprint
+  arxiv: '2606.13477'
+  figure: suprabench
+  figure_size:
+  - 465
+  - 528
+  figure_caption: Fig. 1 · Overview of host–guest supramolecular chemistry. (a) Studies and applications in supramolecular chemistry. (b) Classic scientific discovery pipeline in supramolecular chemistry.
+- title: 'MDForge: Agentic Molecular Dynamics Pipeline Design under Sparse Simulator Feedback'
+  authors:
+  - Zehong Wang
+  - Yijun Ma
+  - Connor R Schmidt
+  - Tianyi Ma
+  - Weixiang Sun
+  - Ziming Li
+  - Xiaoguang Guo
+  - Chuxu Zhang
+  - Matthew J Webber
+  - Yanfang Ye
+  year: 2026
+  venue: EMNLP 2026
+  venue_note: Main · Oral
+  status: published
+  bib_type: conf
+  bib_venue: Conference on Empirical Methods in Natural Language Processing (EMNLP)
+  arxiv: '2606.12916'
+  figure: mdforge
+  figure_size:
+  - 352
+  - 469
+  figure_caption: Fig. 1 · Three paradigms for MD pipeline design. (a) A human expert hand-picks each stage and iteratively revises. (b) Existing LLM agents for MD design call a fixed MD toolbox with no run-time feedback.
+- title: 'ProPlay: Procedural World Models for Self-Evolving LLM Agents'
+  authors:
+  - Yijun Ma
+  - Zehong Wang
+  - Yiyang Li
+  - Ziming Li
+  - Xiaoguang Guo
+  - Weixiang Sun
+  - Chuxu Zhang
+  - Yanfang Ye
+  year: 2026
+  venue: arXiv preprint
+  status: preprint
+  bib_type: preprint
+  arxiv: '2606.12780'
+  figure: proplay
+  figure_size:
+  - 900
+  - 700
+  figure_caption: Fig. 1 · Motivation of ProPlay. Humans adapt to partially observable environments by imagining plausible future paths before acting and consolidating or discarding them after receiving feedback.
+- title: Molecular Representations in Implicit Functional Space via Hyper-Networks
+  authors:
+  - Zehong Wang
+  - Xiaolong Han
+  - Qi Yang
+  - Xiangru Tang
+  - Fang Wu
+  - Xiaoguang Guo
+  - Weixiang Sun
+  - Tianyi Ma
+  - Pietro Lio
+  - Le Cong
+  et_al: true
+  year: 2026
+  venue: arXiv preprint
+  status: preprint
+  bib_type: preprint
+  arxiv: '2601.22327'
+  figure: molhyper
+  figure_size:
+  - 975
+  - 687
+  figure_caption: 'Fig. 1 · Molecular representations: discrete versus continuous function-space modeling. (a) A molecule exhibits inherently continuous and smooth spatial structure.'
+  short_title: Molecular Representations via Hyper-Networks
+- title: 'Why Reasoning Fails to Plan: A Planning-Centric Analysis of Long-Horizon Decision Making in LLM Agents'
+  authors:
+  - Zehong Wang
+  - Fang Wu
+  - Hongru Wang
+  - Xiangru Tang
+  - Bolian Li
+  - Zhenfei Yin
+  - Yijun Ma
+  - Yiyang Li
+  - Weixiang Sun
+  - Xiusi Chen
+  et_al: true
+  year: 2026
+  venue: arXiv preprint
+  status: preprint
+  bib_type: preprint
+  arxiv: '2601.22311'
+  figure: reasonplan
+  figure_size:
+  - 980
+  - 674
+  figure_caption: Fig. 1 · Planning performance and early myopia under increasing horizons. Performance degrades rapidly for single step and beam search as the horizon increases, while lookahead degrades more slowly.
+- title: 'Food4All: An Agentic Framework and Benchmark for Food Resource Navigation with Adaptive User Understanding'
+  authors:
+  - Yiyang Li
+  - Weixiang Sun
+  - Tianyi Ma
+  - Kaiwen Shi
+  - Zheyuan Zhang
+  - Yanfang Ye
+  year: 2025
+  venue: arXiv preprint
+  status: preprint
+  bib_type: preprint
+  arxiv: '2510.18289'
+  figure: food4all
+  figure_size:
+  - 1200
+  - 486
+  figure_caption: Fig. 1 · Overview of Food4All.
+- title: 'Social Science Meets LLMs: How Reliable Are Large Language Models in Social Simulations?'
+  authors:
+  - Yue Huang
+  - Zhengqing Yuan
+  - Yujun Zhou
+  - Kehan Guo
+  - Xiangqi Wang
+  - Haomin Zhuang
+  - Weixiang Sun
+  - Lichao Sun
+  - Jindong Wang
+  - Yanfang Ye
+  et_al: true
+  year: 2025
+  venue: COLM 2025
+  status: published
+  bib_type: conf
+  bib_venue: Conference on Language Modeling (COLM)
+  arxiv: '2410.23426'
+  figure: socsci
+  figure_size:
+  - 501
+  - 383
+  figure_caption: 'Fig. 1 · An example of cognitive inconsistency in simulation: expected fifth-grade response vs. unexpected advanced calculus solution.'
+- title: Can Text-to-Video Models Generate Responsible Realistic Human Motion?
+  authors:
+  - Zhengqing Yuan
+  - Xiaoyu Ma
+  - Yunhong He
+  - Zixuan Weng
+  - Rong Zhou
+  - Weixiang Sun
+  - Lifang He
+  - Lichao Sun
+  - Yanfang Ye
+  year: 2025
+  venue: NeurIPS 2025 Workshop
+  venue_note: ResponsibleFM
+  status: published
+  bib_type: workshop
+  bib_venue: NeurIPS ResponsibleFM Workshop
+  short_title: Responsible Human Motion
+- title: 'SAMed-2: Selective Memory Enhanced Medical Segment Anything Model'
+  authors:
+  - Zhiling Yan
+  - Sifan Song
+  - Dingjie Song
+  - Yiwei Li
+  - Rong Zhou
+  - Weixiang Sun
+  - Zhennong Chen
+  - Sekeun Kim
+  - Hui Ren
+  - Tianming Liu
+  et_al: true
+  year: 2025
+  venue: MICCAI 2025
+  status: published
+  bib_type: conf
+  bib_venue: Medical Image Computing and Computer Assisted Intervention (MICCAI)
+  pages: 540--550
+  venue_detail: pp. 540–550
+  arxiv: '2507.03698'
+  figure: samed2
+  figure_size:
+  - 834
+  - 504
+  figure_caption: Fig. 1 · Workflow of SAMed-2. It integrates a temporal adapter in the image encoder to capture multi-dimensional context and a confidence-driven memory module to store high-certainty features.
+- title: 'FMamba: A Highly Scalable Financial Time-Series Prediction Model'
+  authors:
+  - Hang Wu
+  - Weixiang Sun†
+  year: 2024
+  venue: DEBAI 2024
+  status: published
+  bib_type: conf
+  bib_venue: Proceedings of the International Conference on Digital Economy, Blockchain and Artificial Intelligence (DEBAI)
+  pages: 45--49
+  venue_detail: Intl. Conference on Digital Economy, Blockchain and Artificial Intelligence, pp. 45–49
+- title: 'AdvLogo: Adversarial Patch Attack against Object Detectors Based on Diffusion Models'
+  authors:
+  - Boming Miao
+  - Chunxiao Li
+  - Yao Zhu
+  - Weixiang Sun
+  - Zizhe Wang
+  - Xiaoyi Wang
+  - Chuanlong Xie
+  year: 2024
+  venue: arXiv preprint
+  status: preprint
+  bib_type: preprint
+  arxiv: '2409.07002'
+  figure: advlogo
+  figure_size:
+  - 1200
+  - 432
+  figure_caption: Fig. 1 · According to our hypothesis, the semantic space of “dog” contains an adversarial subspace.

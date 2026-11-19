@@ -1,0 +1,28 @@
+# Cards on /projects/. Only work with a project page belongs here.
+# The first card is shown wide. image = file name in assets/img/pubs/ without ".webp".
+
+- title: The Collaboration Tax
+  url: https://weixiang-sun.github.io/collaboration-tax/
+  image: collabtax
+  meta: EMNLP 2026 · First author
+  description: Collaboration between LLM agents is not free. Working together can cost performance relative to working alone, and the loss comes from how agents communicate rather than how well they reason.
+- title: The Average Patient
+  url: https://weixiang-sun.github.io/average-patient/
+  image: avgpatient
+  meta: Under review · First author
+  description: LLM-simulated psychiatric patients answer like an “average patient”, far less varied than real people, which limits what simulator-based training and evaluation can test.
+- title: EfficientLLM
+  url: https://dlyuangod.github.io/EfficientLLM/
+  image: efficientllm
+  meta: Preprint 2025 · Co-first author
+  description: An empirical study of efficiency techniques for large language models, covering architecture, data, training and tuning, and inference, measured by memory, compute, latency, throughput and energy.
+- title: Bora
+  url: https://weixiang-sun.github.io/Bora/
+  image: bora
+  meta: Preprint 2024 · First author
+  description: A text-guided video generation model for biomedical data, covering endoscopy, ultrasound, real-time MRI and cellular imaging.
+- title: Mora
+  url: https://mora-2025.github.io/
+  image: mora
+  meta: Preprint 2024 · Co-first author
+  description: A multi-agent framework for generalist video generation that splits the work across agents for prompt enhancement, image generation, image editing and video generation. About 1.6k stars on GitHub.
